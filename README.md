@@ -4,3 +4,6 @@
 For usage see the provided examples.
 In these examples, stretchcombo is imported from ase.constraints and arpess from ase.optimize.arpess. 
 Tested with ASE version 3.10.0. 
+
+Theory described in:
+http://pubs.acs.org/doi/10.1021/acs.jctc.7b01070
