@@ -22,6 +22,7 @@ atoms.set_positions(cc.return_adjusted_positions())
 # set all constrainsts, keeping old constraints (there are no old constraints in this example).  
 atoms.set_constraint([cc]+atoms.constraints)
 
+# PBE-D3 (zero damping). should work with any periodic DFT program
 calc = vasp_calculator.Vasp(encut=400,
                         xc='PBE',
                         ivdw=11,
