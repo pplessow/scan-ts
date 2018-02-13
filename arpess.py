@@ -63,7 +63,7 @@ class arpess(Optimizer):
         print '********************************************************************************'
         print '*                                    ARPESS                                    *' 
         print '*               Automated Relaxed Potential Energy Surface Scans               *' 
-        print '*  Plessow, P.N. J. Chem. Theory Comput., 2018, 14, 981−990.                   *'
+        print '*  Plessow, P.N. J. Chem. Theory Comput. 2018, 14, 981−990.                    *'
         print '********************************************************************************'
         if maxstep is not None:
             if maxstep > 1.0:
